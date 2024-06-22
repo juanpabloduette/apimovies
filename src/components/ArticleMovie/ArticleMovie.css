@@ -1,0 +1,37 @@
+.article__movie {
+	border-radius: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: flex-start;
+}
+.imagebox {
+	position: relative;
+}
+article .vote {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	/* border: 1px solid #cccccc; */
+	background-color: rgb(7, 159, 27) !important;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -10px;
+	right: -15px;
+}
+
+.article__title {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 200px;
+	flex-direction: column;
+	width: 100%;
+}
+
+.article__trailer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
